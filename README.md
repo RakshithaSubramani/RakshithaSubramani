@@ -30,7 +30,7 @@
 
 🌱 Third-year IT undergraduate at SSN College of Engineering, Chennai <br/>
 💡 Passionate about <b>Generative AI, NLP, and AI-powered systems</b> <br/>
-🚀 Exploring <b>Retrieval-Augmented Generation (RAG)</b>, LLM apps, and full-stack AI projects <br/>
+🚀 Exploring <b>Retrieval-Augmented Generation (RAG)</b>, LLMs, and  AI projects <br/>
 🔭 Currently building: <b>Dyscover – AI-Based Dyslexia Screening & Support Platform</b> <br/>
 🎯 Goal: To grow into a <b>Generative AI Developer</b> and land a 20+ LPA placement <br/>
 ✨ Motto: <i>Keep building. Keep learning. Keep solving.</i>

@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C2FF,100:7B61FF&height=220&section=header&text=Rakshitha%20S&fontSize=50&fontColor=ffffff"/>
@@ -7,7 +6,7 @@
 
 ### AI & Machine Learning • Generative AI • Full Stack Development
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=Generative+AI+Engineer;Building+RAG+Pipelines;Multi-Agent+AI+Systems;Always+Learning+🚀"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=Generative+AI+Engineer;Building+RAG+Pipelines;Multi-Agent+AI+Systems;Always+Learning+%F0%9F%9A%80"/>
 
 ![](https://komarev.com/ghpvc/?username=RakshithaSubramani&label=Profile+Views&color=0e75b6)
 
@@ -41,7 +40,7 @@
 
 <td align="center">
 
-<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="260">
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="260">
 
 </td>
 </tr>
@@ -104,7 +103,7 @@ Regulation-aware Digital Twin platform with AI Agents and ISO compliance mapping
 
 <p align="center">
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=RakshithaSubramani&show_icons=true&theme=nightowl&hide_border=true"/>
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=RakshithaSubramani&theme=nightowl&hide_border=true"/>
+<img height="170" src="https://streak-stats.demolab.com/?user=RakshithaSubramani&theme=nightowl&hide_border=true"/>
 </p>
 
 <p align="center">
@@ -131,7 +130,39 @@ Regulation-aware Digital Twin platform with AI Agents and ISO compliance mapping
 
 # 🐍 Contribution Snake
 
-> Configure the GitHub Action in `.github/workflows/snake.yml` to generate this SVG automatically.
+This one is the only image that **needs a one-time setup**, since it's generated from your live contribution graph rather than served by a public API. Add this file to your profile repo at `.github/workflows/snake.yml`:
+
+```yaml
+name: Generate Snake
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: RakshithaSubramani
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+Once the Action runs once (push to `main` or trigger it manually from the Actions tab), this will render:
 
 ```html
 <p align="center">

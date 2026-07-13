@@ -126,53 +126,6 @@ Regulation-aware Digital Twin platform with AI Agents and ISO compliance mapping
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
 </p>
 
----
-
-# 🐍 Contribution Snake
-
-This one is the only image that **needs a one-time setup**, since it's generated from your live contribution graph rather than served by a public API. Add this file to your profile repo at `.github/workflows/snake.yml`:
-
-```yaml
-name: Generate Snake
-on:
-  schedule:
-    - cron: "0 3 * * *"
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: RakshithaSubramani
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-Once the Action runs once (push to `main` or trigger it manually from the Actions tab), this will render:
-
-```html
-<p align="center">
-<img src="https://raw.githubusercontent.com/RakshithaSubramani/RakshithaSubramani/output/github-contribution-grid-snake-dark.svg"/>
-</p>
-```
-
----
-
-<div align="center">
 
 ## 🤝 Let's Connect
 

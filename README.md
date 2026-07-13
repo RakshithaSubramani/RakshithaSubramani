@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi%2C%20I'm%20Rakshitha%20👋&fontSize=45&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=AI%20%26%20ML%20|%20Generative%20AI%20|%20Full%20Stack%20Developer&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hi,%20I%20am%20Rakshitha&fontSize=45&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=AI%20%26%20ML%20%7C%20Generative%20AI%20%7C%20Full%20Stack%20Developer&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://linkedin.com/in/rakshitha-s-30a412305"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:umarakshitha7606@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
